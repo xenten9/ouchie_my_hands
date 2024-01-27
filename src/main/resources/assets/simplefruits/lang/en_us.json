@@ -1,6 +1,15 @@
 {
   "item.simplefruits.banana": "Banana",
   "item.simplefruits.orange": "Orange",
+  "item.simplefruits.pear": "Pear",
+  "item.simplefruits.fig": "Fig",
+  "item.simplefruits.plum": "Plum",
+
+  "item.simplefruits.golden_banana": "Golden Banana",
+  "item.simplefruits.golden_orange": "Golden Orange",
+  "item.simplefruits.golden_pear": "Golden Pear",
+  "item.simplefruits.golden_fig": "Golden Fig",
+  "item.simplefruits.golden_plum": "Golden Plum",
 
   "block.simplefruits.apple_crate": "Apple Crate",
   "block.simplefruits.banana_crate": "Banana Crate",

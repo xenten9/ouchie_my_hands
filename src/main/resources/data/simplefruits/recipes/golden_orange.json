@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#F#",
+    "###"
+  ],
+  "key": {
+    "F": {
+      "item": "simplefruits:orange"
+    },
+    "#": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "simplefruits:golden_orange"
+  }
+}

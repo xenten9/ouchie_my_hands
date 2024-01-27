@@ -19,6 +19,15 @@ public class ModItemGroups {
                         entries.add(Items.APPLE);
                         entries.add(ModItems.ORANGE);
                         entries.add(ModItems.BANANA);
+                        entries.add(ModItems.PEAR);
+                        entries.add(ModItems.FIG);
+                        entries.add(ModItems.PLUM);
+                        entries.add(Items.GOLDEN_APPLE);
+                        entries.add(ModItems.GOLDEN_BANANA);
+                        entries.add(ModItems.GOLDEN_ORANGE);
+                        entries.add(ModItems.GOLDEN_PEAR);
+                        entries.add(ModItems.GOLDEN_FIG);
+                        entries.add(ModItems.GOLDEN_PLUM);
                         entries.add(ModBlocks.APPLE_CRATE);
                         entries.add(ModBlocks.BANANA_CRATE);
                     }).build());
