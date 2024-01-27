@@ -1,0 +1,9 @@
+{
+  "item.simplefruits.banana": "Banana",
+  "item.simplefruits.orange": "Orange",
+
+  "block.simplefruits.apple_crate": "Apple Crate",
+  "block.simplefruits.banana_crate": "Banana Crate",
+
+  "itemgroup.fruits": "Fruits"
+}

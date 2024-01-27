@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "simplefruits",
+	"version": "${version}",
+	"name": "Simple Fruits",
+	"description": "Adds more fruits to Minecraft dropped by other trees",
+	"authors": [
+		"TheRedstoneRazor",
+		"Caulifunky"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/simplefruits/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.redstonerazor.simplefruits.SimpleFruits"
+		],
+		"client": [
+			"net.redstonerazor.simplefruits.SimpleFruitsClient"
+		],
+		"fabric-datagen": [
+          "net.redstonerazor.simplefruits.SimpleFruitsDataGenerator"
+		]
+	},
+	"mixins": [
+		"simplefruits.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
