@@ -1,0 +1,1 @@
+execute as @e[predicate=simplefruits:farmer_level_2,tag=!sf.checked] run function simplefruits:set_trades
