@@ -15,9 +15,16 @@ import net.redstonerazor.simplefruits.SimpleFruits;
 public class ModBlocks {
     public static final Block APPLE_CRATE = registerBlock("apple_crate",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.RED)));
-
     public static final Block BANANA_CRATE = registerBlock("banana_crate",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.YELLOW)));
+    public static final Block ORANGE_CRATE = registerBlock("orange_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.ORANGE)));
+    public static final Block PEAR_CRATE = registerBlock("pear_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.GREEN)));
+    public static final Block FIG_CRATE = registerBlock("fig_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.BLUE)));
+    public static final Block PLUM_CRATE = registerBlock("plum_crate",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PURPLE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

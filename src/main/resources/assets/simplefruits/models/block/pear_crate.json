@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "simplefruits:block/pear_crate_side",
+    "bottom": "simplefruits:block/crate_bottom",
+    "top": "simplefruits:block/pear_crate_top"
+  }
+}

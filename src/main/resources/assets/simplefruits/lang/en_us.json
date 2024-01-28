@@ -12,7 +12,11 @@
   "item.simplefruits.golden_plum": "Golden Plum",
 
   "block.simplefruits.apple_crate": "Apple Crate",
+  "block.simplefruits.orange_crate": "Orange Crate",
   "block.simplefruits.banana_crate": "Banana Crate",
+  "block.simplefruits.pear_crate": "Pear Crate",
+  "block.simplefruits.fig_crate": "Fig Crate",
+  "block.simplefruits.plum_crate": "Plum Crate",
 
   "itemgroup.fruits": "Fruits"
 }

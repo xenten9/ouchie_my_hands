@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "simplefruits:orange_crate"
+    }
+  ],
+  "result": {
+    "item": "simplefruits:orange",
+    "count": 9
+  }
+}
