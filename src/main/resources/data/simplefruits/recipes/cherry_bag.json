@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "simplefruits:cherry"
+    }
+  },
+  "result": {
+    "item": "simplefruits:cherry_bag"
+  }
+}

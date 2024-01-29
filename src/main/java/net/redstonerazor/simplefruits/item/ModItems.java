@@ -17,11 +17,14 @@ public class ModItems {
     public static final Item PEAR = registerItem("pear", new Item(new FabricItemSettings().food(ModFoodComponents.PEAR)));
     public static final Item FIG = registerItem("fig", new Item(new FabricItemSettings().food(ModFoodComponents.FIG)));
     public static final Item PLUM = registerItem("plum", new Item(new FabricItemSettings().food(ModFoodComponents.PLUM)));
+    public static final Item CHERRY = registerItem("cherry", new Item(new FabricItemSettings().food(ModFoodComponents.CHERRY)));
     public static final Item GOLDEN_BANANA = registerItem("golden_banana", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_BANANA)));
     public static final Item GOLDEN_ORANGE = registerItem("golden_orange", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_ORANGE)));
     public static final Item GOLDEN_PEAR = registerItem("golden_pear", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_PEAR)));
     public static final Item GOLDEN_FIG = registerItem("golden_fig", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_FIG)));
     public static final Item GOLDEN_PLUM = registerItem("golden_plum", new Item(new FabricItemSettings().rarity(Rarity.RARE).food(ModFoodComponents.GOLDEN_PLUM)));
+    public static final Item GOLDEN_CHERRY = registerItem("golden_cherry", new Item(new FabricItemSettings().food(ModFoodComponents.GOLDEN_CHERRY)));
+    public static final Item POISON_APPLE = registerItem("poison_apple", new Item(new FabricItemSettings().food(ModFoodComponents.POISON_APPLE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(SimpleFruits.MOD_ID, name), item);

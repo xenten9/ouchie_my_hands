@@ -25,6 +25,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.BLUE)));
     public static final Block PLUM_CRATE = registerBlock("plum_crate",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).mapColor(MapColor.PURPLE)));
+    public static final Block CHERRY_BAG = registerBlock("cherry_bag",
+            new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).mapColor(MapColor.RED)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

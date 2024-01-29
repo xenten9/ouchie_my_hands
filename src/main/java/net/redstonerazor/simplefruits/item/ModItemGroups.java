@@ -22,18 +22,22 @@ public class ModItemGroups {
                         entries.add(ModItems.PEAR);
                         entries.add(ModItems.FIG);
                         entries.add(ModItems.PLUM);
+                        entries.add(ModItems.CHERRY);
+                        entries.add(ModItems.POISON_APPLE);
                         entries.add(Items.GOLDEN_APPLE);
-                        entries.add(ModItems.GOLDEN_BANANA);
                         entries.add(ModItems.GOLDEN_ORANGE);
+                        entries.add(ModItems.GOLDEN_BANANA);
                         entries.add(ModItems.GOLDEN_PEAR);
                         entries.add(ModItems.GOLDEN_FIG);
                         entries.add(ModItems.GOLDEN_PLUM);
+                        entries.add(ModItems.GOLDEN_CHERRY);
                         entries.add(ModBlocks.APPLE_CRATE);
                         entries.add(ModBlocks.ORANGE_CRATE);
                         entries.add(ModBlocks.BANANA_CRATE);
                         entries.add(ModBlocks.PEAR_CRATE);
                         entries.add(ModBlocks.FIG_CRATE);
                         entries.add(ModBlocks.PLUM_CRATE);
+                        entries.add(ModBlocks.CHERRY_BAG);
                     }).build());
     public static void registerItemGroups() {
         SimpleFruits.LOGGER.info("Registering item groups for " + SimpleFruits.MOD_ID);
