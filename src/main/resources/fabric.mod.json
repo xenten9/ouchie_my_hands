@@ -1,34 +1,32 @@
 {
 	"schemaVersion": 1,
-	"id": "simplefruits",
+	"id": "ouchie_my_hands",
 	"version": "1.0-1.20.1",
-	"name": "Simple Fruits",
-	"description": "Adds more fruits to Minecraft dropped by other trees",
+	"name": "Ouchie My Hands",
+	"description": "It's twue.",
 	"authors": [
-		"TheRedstoneRazor",
-		"Caulifunky",
-		"Vectorwing"
+		"xenten9",
+		"TheRedstoneRazor"
 	],
 	"contact": {
-		"homepage": "https://discord.gg/bcssPkw",
-		"sources": "https://github.com/TheRedstoneRazor/simple-fruits"
+		"sources": "https://github.com/xenten9/ouchie_my_hands"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/simplefruits/icon.png",
+	"icon": "assets/ouchie_my_hands/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"net.redstonerazor.simplefruits.SimpleFruits"
+          "net.xenten9.ouchie_my_hands.OuchieMyHands"
 		],
 		"client": [
-			"net.redstonerazor.simplefruits.SimpleFruitsClient"
+			"net.xenten9.ouchie_my_hands.OuchieMyHandsClient"
 		],
 		"fabric-datagen": [
-          "net.redstonerazor.simplefruits.SimpleFruitsDataGenerator"
+			"net.xenten9.ouchie_my_hands.OuchieMyHandsDataGenerator"
 		]
 	},
 	"mixins": [
-		"simplefruits.mixins.json"
+		"ouchie_my_hands.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.15.6",

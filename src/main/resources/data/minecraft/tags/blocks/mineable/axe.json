@@ -1,11 +1,6 @@
 {
     "replace": false,
     "values": [
-      "simplefruits:apple_crate",
-      "simplefruits:orange_crate",
-      "simplefruits:banana_crate",
-      "simplefruits:pear_crate",
-      "simplefruits:fig_crate",
-      "simplefruits:plum_crate"
+      "#minecraft:logs"
     ]
-  }
+}
